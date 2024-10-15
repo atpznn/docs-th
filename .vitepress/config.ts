@@ -34,37 +34,37 @@ const nav: ThemeConfig['nav'] = [
     link: '/api/'
   },
   {
-    text: 'Playground',
+    text: 'พื้นที่ทดลอง',
     link: 'https://play.vuejs.org'
   },
   {
-    text: 'Ecosystem',
+    text: 'ระบบนิเวศ (Ecosystem)',
     activeMatch: `^/ecosystem/`,
     items: [
       {
-        text: 'Resources',
+        text: 'ทรัพยากรที่มี',
         items: [
-          { text: 'Partners', link: '/partners/' },
-          { text: 'Themes', link: '/ecosystem/themes' },
+          { text: 'พาร์ทเนอร์', link: '/partners/' },
+          { text: 'ธีม', link: '/ecosystem/themes' },
           { text: 'UI Components', link: 'https://ui-libs.vercel.app/' },
           {
-            text: 'Certification',
+            text: 'เกียรติบัตร',
             link: 'https://certificates.dev/vuejs/?ref=vuejs-nav'
           },
-          { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
-          { text: 'T-Shirt Shop', link: 'https://vue.threadless.com/' }
+          { text: 'หางาน', link: 'https://vuejobs.com/?ref=vuejs' },
+          { text: 'ร้านขายเสื้อเชิ้ต', link: 'https://vue.threadless.com/' }
         ]
       },
       {
-        text: 'Official Libraries',
+        text: 'Libraries มาตราฐาน',
         items: [
-          { text: 'Vue Router', link: 'https://router.vuejs.org/' },
-          { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
+          { text: 'Vue Router (ตัวจัดการ route)', link: 'https://router.vuejs.org/' },
+          { text: 'Pinia (ตัวจัดการ state)', link: 'https://pinia.vuejs.org/' },
           { text: 'Tooling Guide', link: '/guide/scaling-up/tooling.html' }
         ]
       },
       {
-        text: 'Video Courses',
+        text: 'คอร์สวีดีโอ',
         items: [
           {
             text: 'Vue Mastery',
@@ -77,55 +77,55 @@ const nav: ThemeConfig['nav'] = [
         ]
       },
       {
-        text: 'Help',
+        text: 'ช่วยเหลือ',
         items: [
           {
-            text: 'Discord Chat',
+            text: 'เเชท ดิสคอร์ด',
             link: 'https://discord.com/invite/HBherRA'
           },
           {
-            text: 'GitHub Discussions',
+            text: 'เเสดงความคิดเห็นบน GitHub',
             link: 'https://github.com/vuejs/core/discussions'
           },
-          { text: 'DEV Community', link: 'https://dev.to/t/vue' }
+          { text: 'ชุมชนนักพัฒนา', link: 'https://dev.to/t/vue' }
         ]
       },
       {
-        text: 'News',
+        text: 'ข่าวสาร',
         items: [
-          { text: 'Blog', link: 'https://blog.vuejs.org/' },
-          { text: 'Twitter', link: 'https://twitter.com/vuejs' },
-          { text: 'Events', link: 'https://events.vuejs.org/' },
-          { text: 'Newsletters', link: '/ecosystem/newsletters' }
+          { text: 'บล็อก', link: 'https://blog.vuejs.org/' },
+          { text: 'ทวิตเตอร์', link: 'https://twitter.com/vuejs' },
+          { text: 'งานอีเวนต์', link: 'https://events.vuejs.org/' },
+          { text: 'จดหมายข่าว', link: '/ecosystem/newsletters' }
         ]
       }
     ]
   },
   {
-    text: 'About',
+    text: 'เกี่ยวกับ',
     activeMatch: `^/about/`,
     items: [
-      { text: 'FAQ', link: '/about/faq' },
-      { text: 'Team', link: '/about/team' },
-      { text: 'Releases', link: '/about/releases' },
+      { text: 'คำถามที่พบบ่อย', link: '/about/faq' },
+      { text: 'ทีม', link: '/about/team' },
+      { text: 'เวอร์ชั่นที่ปล่อยออกมา', link: '/about/releases' },
       {
-        text: 'Community Guide',
+        text: 'ชุมชนคู่มือ',
         link: '/about/community-guide'
       },
-      { text: 'Code of Conduct', link: '/about/coc' },
-      { text: 'Privacy Policy', link: '/about/privacy' },
+      { text: 'หลักปฏิบัติของชุมชน', link: '/about/coc' },
+      { text: 'นโยบายความเป็นส่วนตัว', link: '/about/privacy' },
       {
-        text: 'The Documentary',
+        text: 'สารคดี',
         link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
       }
     ]
   },
   {
-    text: 'Sponsor',
+    text: 'สปอนเซอร์',
     link: '/sponsor/'
   },
   {
-    text: 'Partners',
+    text: 'พาร์ทเนอร์',
     link: '/partners/',
     activeMatch: `^/partners/`
   }
