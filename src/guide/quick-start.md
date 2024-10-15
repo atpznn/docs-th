@@ -10,7 +10,7 @@ import { VTCodeGroup, VTCodeGroupTab } from '@vue/theme'
 
 ## ลองใช้ Vue ออนไลน์ {#try-vue-online}
 
-- หากต้องการลองใช้งาน Vue อย่างรวดเร็ว คุณสามารถลองใช้ได้โดยตรงที่ [Playground](https://play.vuejs.org/#eNo9jcEKwjAMhl/lt5fpQYfXUQfefAMvvRQbddC1pUuHUPrudg4HIcmXjyRZXEM4zYlEJ+T0iEPgXjn6BB8Zhp46WUZWDjCa9f6w9kAkTtH9CRinV4fmRtZ63H20Ztesqiylphqy3R5UYBqD1UyVAPk+9zkvV1CKbCv9poMLiTEfR2/IXpSoXomqZLtti/IFwVtA9A==).
+- หากต้องการลองใช้งาน Vue อย่างรวดเร็ว คุณสามารถลองใช้ได้โดยตรงที่ [พื้นที่ทดลอง](https://play.vuejs.org/#eNo9jcEKwjAMhl/lt5fpQYfXUQfefAMvvRQbddC1pUuHUPrudg4HIcmXjyRZXEM4zYlEJ+T0iEPgXjn6BB8Zhp46WUZWDjCa9f6w9kAkTtH9CRinV4fmRtZ63H20Ztesqiylphqy3R5UYBqD1UyVAPk+9zkvV1CKbCv9poMLiTEfR2/IXpSoXomqZLtti/IFwVtA9A==).
 
 - หากคุณชอบการตั้งค่า HTML แบบง่าย ๆ โดยไม่ต้องใช้การ build คุณสามารถใช้ [JSFiddle](https://jsfiddle.net/yyx990803/2ke1ab0z/) เป็นจุดเริ่มต้น
 
@@ -120,7 +120,7 @@ $ bun run dev
   </VTCodeGroupTab>
 </VTCodeGroup>
 
-คุณควรจะมีโปรเจ็กต์ Vue แรกของคุณทำงานแล้ว! โปรดทราบว่าคอมโพเนนต์ตัวอย่างในโปรเจ็กต์ที่สร้างขึ้นจะถูกเขียนโดยใช้ [Composition API](/guide/introduction#composition-api) และ `<script setup>` แทนที่จะเป็น [Options API](/guide/introduction#options-api) นี่คือคำแนะนำเพิ่มเติม:
+ตอนนี้คุณควรจะมีโปรเจ็กต์ Vue แรกของคุณที่กำลังทำงานแล้ว! โปรดทราบว่าคอมโพเนนต์ตัวอย่างในโปรเจ็กต์ที่สร้างขึ้นจะถูกเขียนโดยใช้ [Composition API](/guide/introduction#composition-api) และ `<script setup>` แทนที่จะเป็น [Options API](/guide/introduction#options-api) นี่คือคำแนะนำเพิ่มเติม:
 
 - การตั้งค่า IDE ที่แนะนำคือ [Visual Studio Code](https://code.visualstudio.com/) + [ส่วนขยายทางการของ Vue](https://marketplace.visualstudio.com/items?itemName=Vue.volar) หากคุณใช้ตัวแก้ไขอื่น ๆ ให้ตรวจสอบ [ส่วนการรองรับ IDE](/guide/scaling-up/tooling#ide-support).
 - รายละเอียดเพิ่มเติมเกี่ยวกับเครื่องมือ รวมถึงการผสานรวมกับเฟรมเวิร์กฝั่ง backend อยู่ใน [คู่มือเครื่องมือ](guide/scaling-up/tooling).
@@ -160,7 +160,7 @@ $ bun run build
   </VTCodeGroupTab>
 </VTCodeGroup>
 
-คำสั่งนี้จะสร้าง build ที่พร้อมสำหรับการผลิตของแอปในไดเรกทอรี `./dist` ของโปรเจ็กต์คุณ ตรวจสอบ [คู่มือการปรับใช้ในโปรดักชัน](/guide/best-practices/production-deployment) เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการนำแอปของคุณไปใช้งานจริง
+คำสั่งนี้จะสร้างแอพลิเคชั่นสำหรับการนำไปใช้งานจริง (Production) โดยจะถูกเก็บเอาไว้ในไดเรกทอรี `./dist` ของโปรเจ็กต์คุณ ตรวจสอบ [คู่มือการปรับใช้ในโปรดักชัน](/guide/best-practices/production-deployment) เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการนำแอปของคุณไปใช้งานจริง
 
 [ขั้นตอนถัดไป >](#next-steps)
 
@@ -200,7 +200,7 @@ $ bun run build
 </script>
 ```
 
-[CodePen Demo >](https://codepen.io/vuejs-examples/pen/QWJwJLp)
+[ตัวอย่างใน CodePen >](https://codepen.io/vuejs-examples/pen/QWJwJLp)
 
 </div>
 
@@ -225,7 +225,7 @@ $ bun run build
 </script>
 ```
 
-[CodePen Demo >](https://codepen.io/vuejs-examples/pen/eYQpQEG)
+[ตัวอย่างใน Codepen >](https://codepen.io/vuejs-examples/pen/eYQpQEG)
 
 :::tip
 ตัวอย่างหลายตัวอย่างสำหรับ Composition API ในคู่มือจะใช้ไวยากรณ์ `<script setup>` ซึ่งจำเป็นต้องใช้เครื่องมือ build หากคุณต้องการใช้ Composition API โดยไม่ต้องมีขั้นตอนการ build โปรดดูการใช้งานตัวเลือก [`setup()`](/api/composition-api-setup)
@@ -235,7 +235,7 @@ $ bun run build
 
 ### การใช้ ES Module Build {#using-the-es-module-build}
 
-ในส่วนที่เหลือของเอกสารนี้ เราจะใช้ไวยากรณ์ [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) เป็นหลัก เบราว์เซอร์สมัยใหม่ส่วนใหญ่รองรับ ES modules โดยเนทีฟอยู่แล้ว ดังนั้นเราสามารถใช้ Vue จาก CDN ผ่าน ES modules ได้ดังนี้:
+ในส่วนที่เหลือของเอกสารนี้ เราจะใช้ไวยากรณ์ [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) เป็นหลัก เบราว์เซอร์สมัยใหม่ส่วนใหญ่รองรับ ES modules โดยกำเนิดอยู่แล้ว (natively) ดังนั้นเราสามารถใช้ Vue จาก CDN ผ่าน ES modules ได้ดังนี้:
 
 <div class="options-api">
 
@@ -282,12 +282,12 @@ $ bun run build
 
 <div class="options-api">
 
-[CodePen Demo >](https://codepen.io/vuejs-examples/pen/VwVYVZO)
+[ตัวอย่างใน CodePen >](https://codepen.io/vuejs-examples/pen/VwVYVZO)
 
 </div>
 <div class="composition-api">
 
-[CodePen Demo >](https://codepen.io/vuejs-examples/pen/MWzazEv)
+[ตัวอย่างใน CodePen >](https://codepen.io/vuejs-examples/pen/MWzazEv)
 
 </div>
 
@@ -327,7 +327,7 @@ import { createApp } from 'vue'
 </script>
 ```
 
-[CodePen Demo >](https://codepen.io/vuejs-examples/pen/wvQKQyM)
+[ตัวอย่างใน CodePen >](https://codepen.io/vuejs-examples/pen/wvQKQyM)
 
 </div>
 
@@ -358,7 +358,7 @@ import { createApp } from 'vue'
 </script>
 ```
 
-[CodePen Demo >](https://codepen.io/vuejs-examples/pen/YzRyRYM)
+[ตัวอย่างใน CodePen >](https://codepen.io/vuejs-examples/pen/YzRyRYM)
 
 </div>
 
@@ -419,11 +419,11 @@ export default {
 
 </div>
 
-หากคุณเปิด `index.html` ข้างต้นในเบราว์เซอร์โดยตรง คุณจะพบว่ามันเกิดข้อผิดพลาด เนื่องจาก ES modules ไม่สามารถทำงานผ่านโปรโตคอล `file://` ซึ่งเป็นโปรโตคอลที่เบราว์เซอร์ใช้เมื่อคุณเปิดไฟล์ท้องถิ่น
+หากคุณเปิด `index.html` ข้างต้นในเบราว์เซอร์โดยตรง คุณจะพบว่ามันเกิดข้อผิดพลาด เนื่องจาก ES modules ไม่สามารถทำงานผ่านโปรโตคอล `file://` ซึ่งเป็นโปรโตคอลที่เบราว์เซอร์ใช้เมื่อคุณเปิดไฟล์แบบ Local file
 
-เนื่องด้วยเหตุผลด้านความปลอดภัย ES modules สามารถทำงานได้ผ่านโปรโตคอล `http://` เท่านั้น ซึ่งเป็นโปรโตคอลที่เบราว์เซอร์ใช้เมื่อเปิดหน้าเว็บ ในการทำให้ ES modules ทำงานบนเครื่องของเรา เราจำเป็นต้องให้บริการ `index.html` ผ่านโปรโตคอล `http://` โดยใช้เซิร์ฟเวอร์ HTTP ท้องถิ่น
+เนื่องด้วยเหตุผลด้านความปลอดภัย ES modules สามารถทำงานได้ผ่านโปรโตคอล `http://` เท่านั้น ซึ่งเป็นโปรโตคอลที่เบราว์เซอร์ใช้เมื่อเปิดหน้าเว็บ ในการทำให้ ES modules ทำงานบนเครื่องของเรา เราจำเป็นต้องให้บริการ `index.html` ผ่านโปรโตคอล `http://` โดยใช้ local HTTP server.
 
-ในการเริ่มเซิร์ฟเวอร์ HTTP ท้องถิ่น ให้ตรวจสอบว่าคุณได้ติดตั้ง [Node.js](https://nodejs.org/en/) แล้ว จากนั้นรันคำสั่ง `npx serve` จาก command line ในไดเรกทอรีเดียวกับไฟล์ HTML ของคุณ คุณยังสามารถใช้เซิร์ฟเวอร์ HTTP อื่น ๆ ที่สามารถให้บริการไฟล์สแตติกพร้อมประเภท MIME ที่ถูกต้องได้เช่นกัน
+ในการเริ่มเซิร์ฟเวอร์แบบ local HTTP server ให้ตรวจสอบว่าคุณได้ติดตั้ง [Node.js](https://nodejs.org/en/) แล้ว จากนั้นรันคำสั่ง `npx serve` จาก command line ในไดเรกทอรีเดียวกับไฟล์ HTML ของคุณ คุณยังสามารถใช้เซิร์ฟเวอร์ HTTP อื่น ๆ ที่สามารถให้บริการไฟล์สแตติกพร้อมประเภท MIME ที่ถูกต้องได้เช่นกัน
 
 คุณอาจสังเกตเห็นว่าตัวอย่างเทมเพลตของคอมโพเนนต์ถูก inlined เป็นสตริง JavaScript หากคุณใช้ VS Code คุณสามารถติดตั้ง [es6-string-html](https://marketplace.visualstudio.com/items?itemName=Tobermory.es6-string-html) เพื่อให้ไฮไลต์ไวยากรณ์สำหรับสตริงเหล่านี้โดยการเพิ่มคำสั่ง `/*html*/` ที่หน้าสตริง
 
@@ -433,7 +433,7 @@ export default {
 
 <div class="vt-box-container next-steps">
   <a class="vt-box" href="/guide/essentials/application.html">
-    <p class="next-steps-link">ดำเนินการต่อด้วยคู่มือ</p>
+    <p class="next-steps-link">ดำเนินการต่อตามคู่มือ</p>
     <p class="next-steps-caption">คู่มือนี้จะนำคุณผ่านทุกแง่มุมของเฟรมเวิร์กอย่างละเอียด</p>
   </a>
   <a class="vt-box" href="/tutorial/">
