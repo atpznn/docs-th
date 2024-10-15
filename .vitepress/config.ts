@@ -144,10 +144,10 @@ export const sidebar: ThemeConfig['sidebar'] = {
       ]
     },
     {
-      text: 'Essentials',
+      text: 'พื้นฐานที่สำคัญ',
       items: [
         {
-          text: 'Creating an Application',
+          text: 'การสร้างแอพพลิเคชั่น',
           link: '/guide/essentials/application'
         },
         {
@@ -733,7 +733,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       },
       {
         link: '/translations/',
-        text: 'Help Us Translate!',
+        text: 'ช่วยเราแปลภาษา!',
         isTranslationsDesc: true
       }
     ],
