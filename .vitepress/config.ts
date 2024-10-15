@@ -8,22 +8,22 @@ import { headerPlugin } from './headerMdPlugin'
 
 const nav: ThemeConfig['nav'] = [
   {
-    text: 'Docs',
+    text: 'คู่มือ',
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
-      { text: 'Guide', link: '/guide/introduction' },
-      { text: 'Tutorial', link: '/tutorial/' },
-      { text: 'Examples', link: '/examples/' },
-      { text: 'Quick Start', link: '/guide/quick-start' },
+      { text: 'แนะนำ', link: '/guide/introduction' },
+      { text: 'บทเรียน', link: '/tutorial/' },
+      { text: 'ตัวอย่าง', link: '/examples/' },
+      { text: 'เริ่มต้นใช้งานอย่างรวดเร็ว', link: '/guide/quick-start' },
       // { text: 'Style Guide', link: '/style-guide/' },
-      { text: 'Glossary', link: '/glossary/' },
-      { text: 'Error Reference', link: '/error-reference/' },
+      { text: 'รายการคำศัพท์', link: '/glossary/' },
+      { text: 'เอกสารอ้างอิงข้อผิดพลาด', link: '/error-reference/' },
       {
-        text: 'Vue 2 Docs',
+        text: 'คู่มือ Vue 2',
         link: 'https://v2.vuejs.org'
       },
       {
-        text: 'Migration from Vue 2',
+        text: 'อัพเกรดจาก Vue 2',
         link: 'https://v3-migration.vuejs.org/'
       }
     ]
@@ -134,11 +134,11 @@ const nav: ThemeConfig['nav'] = [
 export const sidebar: ThemeConfig['sidebar'] = {
   '/guide/': [
     {
-      text: 'Getting Started',
+      text: 'เตรียมตัวเริ่มต้น',
       items: [
-        { text: 'Introduction', link: '/guide/introduction' },
+        { text: 'แนะนำ', link: '/guide/introduction' },
         {
-          text: 'Quick Start',
+          text: 'เริ่มต้นใช้งานอย่างรวดเร็ว',
           link: '/guide/quick-start'
         }
       ]
@@ -669,7 +669,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     sidebar,
     // Placeholder of the i18n config for @vuejs-translations.
     // i18n,
-
+    i18n: { toc: 'สารบัญในหน้านี้' },
     localeLinks: [
       {
         link: 'https://cn.vuejs.org',
@@ -760,7 +760,7 @@ export default defineConfigWithTheme<ThemeConfig>({
 
     editLink: {
       repo: 'vuejs/docs',
-      text: 'Edit this page on GitHub'
+      text: 'แก้ไขหน้านี้ได้บน GitHub'
     },
 
     footer: {
